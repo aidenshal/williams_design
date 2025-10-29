@@ -90,17 +90,17 @@ Celebrating individuality and authenticity (“Coffee for the bold”)
 
 **Power Words:**
 
-Rebel
+-Rebel
 
-Raw
+-Raw
 
-Unfiltered
+-Unfiltered
 
-Bold
+-Bold
 
-Defiant
+-Defiant
 
-Authentic
+-Authentic
 
 **Sample Headlines:**
 
@@ -117,9 +117,9 @@ Authentic
 ## Real Brand Examples
 ### Example 1: Black Rifle Coffee Company
 
-Website: https://www.blackriflecoffee.com
+**Website:** https://www.blackriflecoffee.com
 
-How they use this archetype:
+**How they use this archetype:**
 
 Marketing that challenges mainstream coffee brands.
 
@@ -129,9 +129,9 @@ Taglines like “Fuel Your Mission” emphasize grit and independence.
 
 ### Example 2: Death Wish Coffee
 
-Website: https://www.deathwishcoffee.com
+**Website:** https://www.deathwishcoffee.com
 
-How they use this archetype:
+**How they use this archetype:**
 
 Branding centered on danger and extreme caffeine — “The World’s Strongest Coffee.”
 
@@ -141,9 +141,9 @@ Messaging uses humor and confidence to challenge the “soft” image of corpora
 
 ### Example 3: Rebel Coffee Roasters
 
-Website: https://www.rebelcoffeeroasters.com
+**Website:** https://www.rebelcoffeeroasters.com
 
-How they use this archetype:
+**How they use this archetype:**
 
 Focus on independence and small-batch authenticity.
 
@@ -164,11 +164,11 @@ This archetype allows us to stand apart — we’re not here to serve comfort; w
 
 **Website Design Ideas:**
 
-Dark background with bold red accents and high-contrast white text.
+-Dark background with bold red accents and high-contrast white text.
 
-Gritty textures (brushed metal, coffee grounds, smoke).
+-Gritty textures (brushed metal, coffee grounds, smoke).
 
-Motion graphics or subtle animations that feel like static or fire flickers.
+-Motion graphics or subtle animations that feel like static or fire flickers.
 
 **Marketing Message Ideas:**
 
@@ -180,11 +180,13 @@ Motion graphics or subtle animations that feel like static or fire flickers.
 
 **Product/Service Presentation:**
 
-Offer limited-edition “Rebel Roasts” with daring flavor profiles.
+-Offer limited-edition “Rebel Roasts” with daring flavor profiles.
 
-Use raw, unpolished packaging (kraft paper, metallic accents).
+-Use raw, unpolished packaging (kraft paper, metallic accents).
 
-Feature stories of real customers who “brew outside the lines.”
+-Feature stories of real customers who “brew outside the lines.”
+
+---
 
 ## Research Sources
 
