@@ -1,6 +1,6 @@
 # Williams Design System
 
-1. [Brand Archetype](archetype.md)
-2. [Cialdini Methods of Persuion](cialdini.md0)
-3. [Competitive Landscape](competitive_landscape.md)
-4. [Sales Funnel / Customer Journey](sales_funnel.md)
+1. [Brand Archetype](docs/archetype.md)
+2. [Cialdini Methods of Persuion](cialdini.md)
+3. [Competitive Landscape](docs/competitive_landscape.md)
+4. [Sales Funnel / Customer Journey](docs/sales_funnel.md)
