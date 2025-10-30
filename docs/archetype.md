@@ -2,7 +2,7 @@
 
 Quick navigation:
 - Home: [README](../README.md)
-- Other templates: [Persuasion](persuasion.md) • [Sales funnel](sales-funnel.md)
+- Other templates: [Competitive Landscape](docs/competitive_landscape.md) • [Sales funnel](docs/sales-funnel.md)
 
 ## Chosen Archetype: The Outlaw
 
