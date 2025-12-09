@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      {% if title %}{{ title }} | Williams Design System{% else %}Williams Design
+      System{% endif %}
+    </title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <meta
+      name="description"
+      content="Williams Design System for Outlaw Coffee: archetype, persuasion methods, competitive landscape, and sales funnel."
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}" />
+  </head>
+  <body class="site-body">
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="site-header__inner container">
+          <a class="site-header__brand" href="{{ '/' | url }}">
+            <span class="brand-mark">☠</span>
+            <span class="brand-text">
+              Outlaw Coffee
+              <span class="brand-sub">Williams Design System</span>
+            </span>
+          </a>
+
+          <nav class="site-nav" aria-label="Main navigation">
+            <a
+              href="{{ '/' | url }}"
+              class="site-nav__link{% if page.url === '/' %} site-nav__link--active{% endif %}"
+              >Home</a
+            >
+            <a
+              href="{{ '/archetype/' | url }}"
+              class="site-nav__link{% if page.url === '/archetype/' %} site-nav__link--active{% endif %}"
+              >Brand Archetype</a
+            >
+            <a
+              href="{{ '/cialdini/' | url }}"
+              class="site-nav__link{% if page.url === '/cialdini/' %} site-nav__link--active{% endif %}"
+              >Cialdini Methods</a
+            >
+            <a
+              href="{{ '/competitive-landscape/' | url }}"
+              class="site-nav__link{% if page.url === '/competitive-landscape/' %} site-nav__link--active{% endif %}"
+              >Competitive Landscape</a
+            >
+            <a
+              href="{{ '/sales-funnel/' | url }}"
+              class="site-nav__link{% if page.url === '/sales-funnel/' %} site-nav__link--active{% endif %}"
+              >Sales Funnel</a
+            >
+            <a
+              href="{{ '/about/' | url }}"
+              class="site-nav__link{% if page.url === '/about/' %} site-nav__link--active{% endif %}"
+              >About</a
+            >
+          </nav>
+        </div>
+      </header>
+
+      <main class="page" id="main-content">
+        <div class="container">
+          {% if title %}
+          <header class="page-heading">
+            <p class="page-kicker">Design System · Outlaw Coffee</p>
+            <h1 class="page-title">{{ title }}</h1>
+
+            {% if page.url === '/' %}
+            <p class="page-intro">
+              A structured, opinionated design system for a rebellious coffee
+              brand. Built from archetype research, persuasion psychology,
+              competitor analysis, and a full sales funnel.
+            </p>
+            {% endif %}
+          </header>
+          {% endif %}
+
+          <section class="page-content">
+            {{ content | safe }}
+          </section>
+        </div>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container site-footer__inner">
+          <p class="site-footer__text">
+            &copy; {% year %} Outlaw Coffee · Williams Design System.
+          </p>
+          <p class="site-footer__text">
+            Source docs:
+            <a
+              href="https://github.com/aidenshal/williams_design"
+              rel="noopener noreferrer"
+            >
+              GitHub repository
+            </a>
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aidenshal.github.io/williams_design/sitemap.xml

@@ -1,0 +1,48 @@
+{
+    "name": "williams-design-system-site",
+    "version": "1.0.0",
+    "description": "Williams Design System static site with Eleventy and quality gates",
+    "scripts": {
+      "start": "eleventy --serve",
+      "build": "eleventy",
+      "clean": "rm -rf _site",
+      "lint": "npm run lint:js && npm run lint:css && npm run lint:md && npm run lint:format && npm run lint:duplication",
+      "lint:js": "eslint \"src/**/*.js\" \".eleventy.js\"",
+      "lint:css": "stylelint \"src/**/*.css\"",
+      "lint:md": "markdownlint \"**/*.md\" --ignore node_modules --ignore _site",
+      "lint:format": "prettier --check \"**/*.{js,css,md,html,json}\" --ignore-path .gitignore",
+      "lint:duplication": "jscpd src/",
+      "lint:links": "npm run lint:links:md && npm run lint:links:html",
+      "lint:links:md": "markdown-link-check docs/**/*.md README.md --config .markdown-link-check.json --quiet",
+      "lint:links:html": "npm run build && linkinator _site --recurse --skip \"^(?!http://localhost|https://aidenshal.github.io)\" --markdown",
+      "format": "prettier --write \"**/*.{js,css,md,html,json}\" --ignore-path .gitignore",
+      "lighthouse": "lhci autorun",
+      "prepare": "husky install",
+      "test": "npm run lint && npm run build && npm run lint:links"
+    },
+    "keywords": [
+      "static-site",
+      "eleventy",
+      "github-pages"
+    ],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+      "@11ty/eleventy": "^2.0.1",
+      "@lhci/cli": "^0.13.0",
+      "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
+      "eslint": "^8.57.0",
+      "eslint-config-prettier": "^9.1.0",
+      "husky": "^8.0.3",
+      "jscpd": "^4.0.5",
+      "linkinator": "^7.3.0",
+      "lint-staged": "^15.2.0",
+      "markdown-link-check": "^3.14.1",
+      "markdownlint-cli": "^0.39.0",
+      "prettier": "^3.2.5",
+      "stylelint": "^16.2.1",
+      "stylelint-config-standard": "^36.0.0",
+      "stylelint-prettier": "^5.0.0"
+    }
+  }
+  

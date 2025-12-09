@@ -1,0 +1,21 @@
+
+{
+    "threshold": 10,
+    "reporters": ["html", "console"],
+    "ignore": [
+      "**/.git/**",
+      "**/node_modules/**",
+      "**/_site/**",
+      "**/package-lock.json",
+      "**/*.min.js",
+      "**/*.min.css"
+    ],
+    "format": ["javascript", "css", "markup"],
+    "minLines": 5,
+    "minTokens": 50,
+    "output": ".jscpd-report",
+    "mode": "strict",
+    "absolute": true,
+    "exitCode": 1
+  }
+  
